@@ -12,6 +12,11 @@
     "authors": [
 
     ],
+    "autoload": {
+      "files": [
+        "./icon-picker.php"
+      ]
+    },
     "require-dev": {
         "wp-coding-standards/wpcs": "^0.10.0"
     },
