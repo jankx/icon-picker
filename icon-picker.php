@@ -155,8 +155,8 @@ final class Icon_Picker {
 	 */
 	protected function __construct( $args = array() ) {
 		$defaults = array(
-			'dir' => untrailingslashit( plugin_dir_path( __FILE__ ) ),
-			'url' => untrailingslashit( plugin_dir_url( __FILE__ ) ),
+			'dir' => untrailingslashit( dirname( __FILE__ ) . DIRECTORY_SEPARATOR),
+			'url' => untrailingslashit( jankx_get_path_url( __DIR__ ) ),
 		);
 
 		$args = wp_parse_args( $args, $defaults );
