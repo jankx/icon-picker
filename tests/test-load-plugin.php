@@ -1,4 +1,7 @@
 <?php
+if (!defined('ABSPATH')) {
+    exit('Cheatin huh?');
+}
 
 class Icon_Picker_Test_Plugin extends WP_UnitTestCase {
 

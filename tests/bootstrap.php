@@ -1,4 +1,7 @@
 <?php
+if (!defined('ABSPATH')) {
+    exit('Cheatin huh?');
+}
 /**
  * Bootstrap the plugin unit testing environment.
  */
