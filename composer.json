@@ -6,7 +6,6 @@
     "license": "GPL-2.0",
     "type": "wordpress-plugin",
     "require": {
-        "jankx/helpers": "*",
         "enshrined/svg-sanitize": "^0.18.0"
     },
     "authors": [
